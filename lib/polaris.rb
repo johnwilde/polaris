@@ -2,7 +2,7 @@ require 'polaris/version'
 
 require 'algorithms'
 require 'pry'
-include Containers
+include Algorithms::Containers
 
 # Polaris is a star that guides, aka "The North Star".  It implements the A* algorithm.
 class Polaris
